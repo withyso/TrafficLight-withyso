@@ -1,7 +1,7 @@
 import React from "react";
-import { RedLight } from "./RedLight";
-import { OrangeLight } from "./OrangeLight";
+import { YellowLight } from "./YellowLight";
 import { GreenLight } from "./GreenLight";
+import { RedLight } from "./RedLight";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
@@ -12,9 +12,9 @@ const Home = () => {
 		<div className="container d-flex" id="trafic-light">
 			<div className="" id="post"></div>
 			<div className="" id="body">
-				<RedLight />
-				<OrangeLight />
+				<YellowLight />
 				<GreenLight />
+				<RedLight />
 			</div>
 		</div>
 	);
