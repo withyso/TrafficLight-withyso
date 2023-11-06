@@ -15,11 +15,6 @@
     border-radius: 15px;
     background-color: #5A5953;
     border: 15px solid #E2BB19;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 15px;
-    gap: 15px;
 }
 
 .lights{
@@ -29,5 +24,15 @@
 }
 
 .selected{
-    
+    -webkit-box-shadow:0px 0px 127px 22px rgba(232,221,151,0.9);
+    -moz-box-shadow: 0px 0px 127px 22px rgba(232,221,151,0.9);
+    box-shadow: 0px 0px 127px 22px rgba(232,221,151,0.9);
+}
+
+.bodyLight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+    gap: 15px;
 }
